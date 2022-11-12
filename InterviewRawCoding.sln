@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReturnDuplicateNumnersFromA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListExample", "LinkedListExample\LinkedListExample.csproj", "{469240DD-8F33-4B82-860B-204F7DE51831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryExample", "DictionaryExample\DictionaryExample.csproj", "{848AA493-E59A-4F52-B508-FEF3651CA716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryExample", "DictionaryExample\DictionaryExample.csproj", "{848AA493-E59A-4F52-B508-FEF3651CA716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HastTableExample", "HastTableExample\HastTableExample.csproj", "{83962CB2-E695-464A-B77D-176C07FCAE2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HastTableExample", "HastTableExample\HastTableExample.csproj", "{83962CB2-E695-464A-B77D-176C07FCAE2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSetExample", "HashSetExample\HashSetExample.csproj", "{0D10E2EF-186B-40F3-BFC5-9BB85CBE22D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetExample", "HashSetExample\HashSetExample.csproj", "{0D10E2EF-186B-40F3-BFC5-9BB85CBE22D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DS", "DS", "{7F596DF2-E9DE-464A-8305-C0AA49D78CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreathFirstSearch", "DS\BreathFirstSearch\BreathFirstSearch.csproj", "{94AD9E86-FA7C-4E81-A73D-3140195E7D87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,16 @@ Global
 		{0D10E2EF-186B-40F3-BFC5-9BB85CBE22D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D10E2EF-186B-40F3-BFC5-9BB85CBE22D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D10E2EF-186B-40F3-BFC5-9BB85CBE22D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AD9E86-FA7C-4E81-A73D-3140195E7D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AD9E86-FA7C-4E81-A73D-3140195E7D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AD9E86-FA7C-4E81-A73D-3140195E7D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AD9E86-FA7C-4E81-A73D-3140195E7D87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94AD9E86-FA7C-4E81-A73D-3140195E7D87} = {7F596DF2-E9DE-464A-8305-C0AA49D78CD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D29D1B41-417C-45DE-93AC-82FA0CD68716}
