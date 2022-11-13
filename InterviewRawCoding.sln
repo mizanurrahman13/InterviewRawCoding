@@ -17,7 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSetExample", "HashSetEx
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DS", "DS", "{7F596DF2-E9DE-464A-8305-C0AA49D78CD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreathFirstSearch", "DS\BreathFirstSearch\BreathFirstSearch.csproj", "{94AD9E86-FA7C-4E81-A73D-3140195E7D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreathFirstSearch", "DS\BreathFirstSearch\BreathFirstSearch.csproj", "{94AD9E86-FA7C-4E81-A73D-3140195E7D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthFirstSearch", "DS\DepthFirstSearch\DepthFirstSearch.csproj", "{09965242-8BC5-415C-9F30-E6AE5F59A183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFSUsingTupleAndQueue", "DS\BFSUsingTupleAndQueue\BFSUsingTupleAndQueue.csproj", "{F17AAF18-76A4-4684-B1C6-636D527F4297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSUsingTupleAndStack", "DS\DFSUsingTupleAndStack\DFSUsingTupleAndStack.csproj", "{648A95D2-3985-4D46-9CA8-E4CCDFCBF8F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,12 +59,27 @@ Global
 		{94AD9E86-FA7C-4E81-A73D-3140195E7D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94AD9E86-FA7C-4E81-A73D-3140195E7D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94AD9E86-FA7C-4E81-A73D-3140195E7D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09965242-8BC5-415C-9F30-E6AE5F59A183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09965242-8BC5-415C-9F30-E6AE5F59A183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09965242-8BC5-415C-9F30-E6AE5F59A183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09965242-8BC5-415C-9F30-E6AE5F59A183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17AAF18-76A4-4684-B1C6-636D527F4297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17AAF18-76A4-4684-B1C6-636D527F4297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17AAF18-76A4-4684-B1C6-636D527F4297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17AAF18-76A4-4684-B1C6-636D527F4297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648A95D2-3985-4D46-9CA8-E4CCDFCBF8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648A95D2-3985-4D46-9CA8-E4CCDFCBF8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648A95D2-3985-4D46-9CA8-E4CCDFCBF8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648A95D2-3985-4D46-9CA8-E4CCDFCBF8F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{94AD9E86-FA7C-4E81-A73D-3140195E7D87} = {7F596DF2-E9DE-464A-8305-C0AA49D78CD0}
+		{09965242-8BC5-415C-9F30-E6AE5F59A183} = {7F596DF2-E9DE-464A-8305-C0AA49D78CD0}
+		{F17AAF18-76A4-4684-B1C6-636D527F4297} = {7F596DF2-E9DE-464A-8305-C0AA49D78CD0}
+		{648A95D2-3985-4D46-9CA8-E4CCDFCBF8F5} = {7F596DF2-E9DE-464A-8305-C0AA49D78CD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D29D1B41-417C-45DE-93AC-82FA0CD68716}
