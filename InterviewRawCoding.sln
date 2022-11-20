@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapExample", "DS\HeapExamp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressionDemo", "RegularExpressionDemo\RegularExpressionDemo.csproj", "{FD422B76-EFA7-44D9-90FE-1634CDC40716}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubSetsExample", "SubSetsExample\SubSetsExample.csproj", "{642551D4-7014-4F36-A1AC-95380562A518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchExample", "BinarySearchExample\BinarySearchExample.csproj", "{28104624-E804-4584-B48A-ED50DD5D7944}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +135,14 @@ Global
 		{FD422B76-EFA7-44D9-90FE-1634CDC40716}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD422B76-EFA7-44D9-90FE-1634CDC40716}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD422B76-EFA7-44D9-90FE-1634CDC40716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642551D4-7014-4F36-A1AC-95380562A518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642551D4-7014-4F36-A1AC-95380562A518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642551D4-7014-4F36-A1AC-95380562A518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642551D4-7014-4F36-A1AC-95380562A518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28104624-E804-4584-B48A-ED50DD5D7944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28104624-E804-4584-B48A-ED50DD5D7944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28104624-E804-4584-B48A-ED50DD5D7944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28104624-E804-4584-B48A-ED50DD5D7944}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
