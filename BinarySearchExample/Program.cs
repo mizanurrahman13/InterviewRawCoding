@@ -23,3 +23,20 @@ if (index == -1)
 else
     Console.Write("ceiling of " + target + " is "
                   + array[index]);
+
+Console.WriteLine("\nBitonic Part----------------");
+var bitonicArrayDemo = new BitonicArrayDemo();
+array = new[] { -8, 1, 2, 3, 4, 5, -2, -3 };
+target = -2;
+int n, left, right;
+n = array.Length;
+left = 0;
+right = n - 1;
+index = bitonicArrayDemo.FindBitonicPoint(array, n, left, right);
+
+int x = bitonicArrayDemo.SearchBitonic(array, n, target, index);
+
+if (x == -1)
+    Console.WriteLine("Element Not Found.");
+else
+    Console.WriteLine($"Element Found at Index[{x}].");
